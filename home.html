@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vasanello</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontello.css">
+  <link rel="stylesheet" href="dist/hamburgers.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Edu+SA+Beginner&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <h1 class="logo">Comune<img class="escudo" src="imagenes/Logo Comune Vasanello.png" style="width: 40px; margin-bottom:-8px; margin-top: 3px;"  alt="logo comune"></h1>
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar">
+        <div class="hamburger hamburger--3dx-r" for="menu-bar">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </div>
+        <script>
+            var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+        
+            var hamburgers = document.querySelectorAll(".hamburger");
+            if (hamburgers.length > 0) {
+              forEach(hamburgers, function(hamburger) {
+                hamburger.addEventListener("click", function() {
+                  this.classList.toggle("is-active");
+                }, false);
+              });
+            }
+          </script>
+      </label>
+      <nav class="menu">
+        <a href="">Inizio</a>
+        <a href="">L'Amministrazione</a>
+        <a href="">Cultura e Ricreazione </a>
+        <a href="">Contatti</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="banner">
+      <img src="imagenes/20221114_160747.jpg" alt="castello">
+      <div class="contenedor">
+        <h2>Tutte le informazioni in un unico posto </h2>
+        <p>Notizie dal Comune</p>
+        <a href="#">Leggere piu</a>
+      </div>
+    </section>
+    <section id="principal">
+      <h2>Benvenuto nella comune</h2>
+      
+      <p></p>
+    </section>
+  </main>
+    
+</body>
+</html>
