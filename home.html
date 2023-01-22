@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
   </head>
   <body>
   <header>
@@ -76,7 +77,14 @@
         </div>
         <div class="gallery_img">
           <img src="imagenes/nevevasanello.jpg" alt="tempo" class="itemimg">
-          <h4 class="titulos_img"> <a href="#"> tempo </a></h4>
+          <h4 class="titulos_img"> <a href="#"> tempo </a> 
+            <div class="temperatura" id="temperatura">
+              <img src="imagenes/icons8-automazione-termometro-48.png" alt="termo">
+              <div class="temp" id="temp">14°</div>
+            </div>
+            <div class="weather" id="weather">sol</div>
+            <div class="date" id="date">22/01/2022</div>
+          </h4>
         </div>
       </div>
     </div>
@@ -88,7 +96,7 @@
         <h3>Comune di Vasanello</h3>
         <div class="contatti">
           <h2>Contatti</h2>
-          <div class="data">
+          <div >
             <h4>Via Roma, 30</h4>
             <h4>01030 Vasanello (VT)</h4>
             <h4>C.F. 00221130560</h4>
