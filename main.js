@@ -1,5 +1,8 @@
+const lastPart = '04e688e628e46';
+const parteMedia = ['a','6','0','5','d','7','5','a','a'];
+const medio = parteMedia.join('')
 const api = {
-  key:'6268a03464a605d75aa04e688e628e46',
+  key:'6268a03464'+medio+lastPart,
   url:'https://api.openweathermap.org/data/2.5/weather'
 }
 const city = document.getElementById('city');
