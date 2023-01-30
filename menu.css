@@ -44,6 +44,7 @@
     }
     .menu a{
         border: none;
+        height: 60px;
     }
     label{
         display: none;
